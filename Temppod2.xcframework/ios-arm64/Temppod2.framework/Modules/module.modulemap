@@ -1,0 +1,11 @@
+framework module Temppod2 {
+  umbrella header "Temppod2.h"
+
+  export *
+  module * { export * }
+}
+
+module Temppod2.Swift {
+    header "Temppod2-Swift.h"
+    requires objc
+}
