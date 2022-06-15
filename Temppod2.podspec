@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.author            = { 'Mirant123' => 'mirant.patel@einfochips.com' }
-    s.license = { :type => "Mirant", :text => "License" }
+    s.license = { :type => "Copyright", :text => "© 2018-2022 Mirant. All rights reserved.\n" }
 
     s.platform          = :ios
     s.ios.deployment_target = '12.0'
